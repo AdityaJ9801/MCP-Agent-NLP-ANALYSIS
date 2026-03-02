@@ -1,0 +1,206 @@
+2026-03-02 17:35:29,355 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-03-02 17:35:29,361 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2026-03-02 17:35:29,362 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2026-03-02 17:35:29,363 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2026-03-02 17:35:29,381 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2026-03-02 17:35:59,860 - ResearchAgent - ERROR - Runtime Error: 
+Traceback (most recent call last):
+  File "D:\PROJECT\NLP_PROJECT\agent.py", line 137, in run_agent
+    user_input = console.input("\n[bold yellow]User ❯ [/bold yellow]").strip()
+                 ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\PROJECT\NLP_PROJECT\.venv\Lib\site-packages\rich\console.py", line 2174, in input
+    result = input()
+EOFError
+2026-03-02 17:36:04,339 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-03-02 17:36:04,345 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2026-03-02 17:36:04,346 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2026-03-02 17:36:04,347 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2026-03-02 17:36:04,367 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2026-03-02 17:36:33,682 - ResearchAgent - INFO - User Input: hi
+2026-03-02 17:36:33,688 - ResearchAgent - INFO - Retrieving context for: hi...
+2026-03-02 17:36:33,743 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-03-02 17:36:34,905 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 17:36:35,453 - ResearchAgent - INFO - AI Response: Hello! How can I assist you today?...
+2026-03-02 17:37:17,146 - ResearchAgent - INFO - User Input: explain me about this website https://geminicli.com/docs/cli/sandbox/ and also provide nlp analysis
+2026-03-02 17:37:17,149 - ResearchAgent - INFO - Retrieving context for: explain me about this website https://geminicli.co...
+2026-03-02 17:37:17,214 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-03-02 17:37:17,741 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 17:37:22,401 - ResearchAgent - INFO - AI Response: The website [https://geminicli.com/docs/cli/sandbox/](https://geminicli.com/docs/cli/sandbox/) is a ...
+2026-03-02 17:37:55,047 - ResearchAgent - INFO - User Input: provide analysis of this website "https://geminicli.com/docs/cli/sandbox/"
+2026-03-02 17:37:55,052 - ResearchAgent - INFO - Retrieving context for: provide analysis of this website "https://geminicl...
+2026-03-02 17:37:55,117 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-03-02 17:37:55,578 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 17:37:58,314 - ResearchAgent - INFO - AI Response: The website [https://geminicli.com/docs/cli/sandbox/](https://geminicli.com/docs/cli/sandbox/) is a ...
+2026-03-02 17:41:43,088 - ResearchAgent - ERROR - Runtime Error: 
+Traceback (most recent call last):
+  File "D:\PROJECT\NLP_PROJECT\agent.py", line 137, in run_agent
+  File "D:\PROJECT\NLP_PROJECT\.venv\Lib\site-packages\rich\console.py", line 2174, in input
+    result = input()
+EOFError
+2026-03-02 17:41:52,905 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-03-02 17:41:52,908 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2026-03-02 17:41:52,908 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2026-03-02 17:41:52,908 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2026-03-02 17:41:52,923 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2026-03-02 17:42:15,896 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-03-02 17:42:16,457 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 17:42:19,385 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 17:43:08,732 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-03-02 17:43:09,270 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 17:43:11,323 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 17:43:24,372 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-03-02 17:43:24,871 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 17:43:26,552 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 17:43:41,871 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-03-02 17:43:41,874 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2026-03-02 17:43:41,874 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2026-03-02 17:43:41,874 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2026-03-02 17:43:41,889 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2026-03-02 17:43:51,491 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-03-02 17:43:52,022 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 17:43:52,900 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 17:43:53,942 - ResearchAgent - INFO - Refining answer (Iteration 1): REFINE: The response is not specific to the query. It should directly address the need for clarity or provide actionable information.
+2026-03-02 17:43:54,180 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 17:43:56,140 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 17:44:53,244 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-03-02 17:44:53,247 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2026-03-02 17:44:53,247 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2026-03-02 17:44:53,247 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2026-03-02 17:44:53,262 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2026-03-02 17:44:59,745 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-03-02 17:45:00,209 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 17:45:01,065 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 17:45:02,106 - ResearchAgent - INFO - Refining answer (Iteration 1): REFINE: The response is not specific to the query. It should directly address the need for clarity or provide actionable information.
+2026-03-02 17:45:02,324 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 17:45:04,274 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 17:45:12,051 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-03-02 17:45:12,611 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 17:45:13,818 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 17:45:39,039 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-03-02 17:45:39,622 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 17:45:44,061 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 17:45:46,746 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 17:46:15,077 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-03-02 17:46:15,862 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 17:46:26,484 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 17:46:59,242 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-03-02 17:47:00,051 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 17:47:13,274 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 17:47:25,714 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-03-02 17:47:27,874 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 17:47:47,622 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 17:48:07,803 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 18:16:48,965 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-03-02 18:16:48,968 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2026-03-02 18:16:48,968 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2026-03-02 18:16:48,968 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2026-03-02 18:16:48,984 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2026-03-02 18:57:37,647 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-03-02 18:57:37,650 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2026-03-02 18:57:37,650 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2026-03-02 18:57:37,650 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2026-03-02 18:57:37,666 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2026-03-02 18:58:22,006 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-03-02 18:58:23,175 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 18:58:28,952 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 18:58:36,090 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 18:58:40,296 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 18:59:32,332 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-03-02 18:59:33,250 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 18:59:40,545 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 20:40:26,671 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-03-02 20:40:26,674 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2026-03-02 20:40:26,674 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2026-03-02 20:40:26,674 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2026-03-02 20:40:26,690 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2026-03-02 20:40:40,199 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-03-02 20:40:41,469 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 20:40:49,834 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 20:40:56,878 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 20:56:08,518 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-03-02 20:56:10,019 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 20:56:16,995 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 20:56:23,388 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 20:56:27,240 - ResearchAgent - INFO - Refining answer (Iteration 1): REFINE: The AI response is missing information and inaccurately addresses the user's query about its own capabilities. It focuses on external resource accessibility instead of explaining its own functions. The response should directly answer the user's question about the AI's capabilities without referencing external sites.
+2026-03-02 20:56:27,990 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 20:56:38,656 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 20:56:44,426 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 21:01:22,097 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-03-02 21:01:22,100 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2026-03-02 21:01:22,101 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2026-03-02 21:01:22,101 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2026-03-02 21:01:22,118 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2026-03-02 21:01:51,577 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-03-02 21:01:52,927 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 21:02:04,140 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 21:02:10,757 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 21:02:14,920 - ResearchAgent - INFO - Refining answer (Iteration 1): REFINE: The AI response lacks specific NLP analysis details (e.g., text segmentation, keyword frequency, topic modeling) and does not directly analyze the website's content. It provides a generic summary rather than a structured NLP evaluation.
+2026-03-02 21:02:15,834 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 21:02:22,216 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 21:02:41,482 - ResearchAgent - INFO - Refining answer (Iteration 2): REFINE: The AI response is missing information and does not provide an NLP analysis of the website. The AI cannot access the website, so it cannot perform the analysis.
+2026-03-02 21:02:45,581 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 21:03:39,797 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 21:04:08,612 - ResearchAgent - INFO - Refining answer (Iteration 3): REFINE: The AI response is incomplete and inaccurate because it provides a hypothetical NLP analysis without actual website content analysis. The error message correctly states the inability to access the website, but the subsequent analysis is based on assumptions, lacking factual data. The response should explicitly clarify the lack of access and avoid hypothetical claims.
+2026-03-02 21:04:13,397 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 21:18:22,440 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-03-02 21:18:22,443 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2026-03-02 21:18:22,444 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2026-03-02 21:18:22,444 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2026-03-02 21:18:22,459 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2026-03-02 21:18:30,929 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 21:18:34,835 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-03-02 21:18:35,263 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 21:18:47,595 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 21:18:56,065 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 21:25:50,397 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 21:25:54,952 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-03-02 21:25:56,003 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 21:26:03,300 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 21:26:13,506 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 21:26:15,584 - ResearchAgent - INFO - Refining answer (Iteration 1): REFINE: The AI response incorrectly analyzed a local Python script instead of the website "https://podman.io/". The analysis is unrelated to the requested task.
+2026-03-02 21:26:16,616 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 21:26:30,065 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 21:27:03,503 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 21:27:28,661 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-03-02 21:27:33,271 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 21:28:07,214 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 21:28:19,751 - ResearchAgent - INFO - Refining answer (Iteration 1): REFINE: Provide the NLP analysis of Podman.io website.
+2026-03-02 21:28:30,959 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-03-02 21:28:30,962 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2026-03-02 21:28:30,963 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2026-03-02 21:28:30,963 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2026-03-02 21:28:30,982 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2026-03-02 21:28:50,254 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 21:29:45,856 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-03-02 21:29:47,586 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 21:30:25,159 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 21:30:40,967 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 21:30:57,700 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-03-02 21:30:57,704 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2026-03-02 21:30:57,704 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2026-03-02 21:30:57,704 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2026-03-02 21:30:57,722 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2026-03-02 21:31:30,028 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 21:31:33,253 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2026-03-02 21:31:33,644 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 21:34:43,493 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 21:35:49,152 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 21:36:07,881 - ResearchAgent - INFO - Refining answer (Iteration 1): REFINE: Use your tools to perform the requested task. Do not make excuses.
+2026-03-02 21:36:10,488 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 21:36:49,708 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 21:37:08,607 - ResearchAgent - INFO - Refining answer (Iteration 2): REFINE: The AI response is missing the actual content of the file `D:\PROJECT\NLP_PROJECT\temp.txt`. It provides only code structure summaries without the specific lines or data from the file. A correct summary would require accessing the file's contents directly.
+2026-03-02 21:37:11,833 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 21:37:54,319 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-02 21:39:00,810 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"

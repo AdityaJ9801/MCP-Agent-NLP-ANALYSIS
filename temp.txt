@@ -1,0 +1,61 @@
+leetcode 1518 water bottles , 1680 concatenation of consecutive binary num
+
+class Solution:
+    def rotate(self, nums, k):
+        k = k % len(nums)          # Normalize k
+        nums[:] = nums[-k:] + nums[:-k]   # Slice & combine
+
+class Solution:
+    def sortColors(self, nums: List[int]) -> None:
+
+        red, white, blue = 0, 0, len(nums) - 1
+
+        while white <= blue:
+            if nums[white] == 0:
+                nums[white], nums[red] = nums[red], nums[white]
+                red += 1
+                white += 1
+            elif nums[white] == 1:
+                white += 1
+            else:
+                nums[white], nums[blue] = nums[blue], nums[white]
+                blue -= 1
+
+
+class Solution:
+    def majorityElement(self, nums: List[int]) -> int:
+        hash = {}
+        res = majority = 0
+        
+        for n in nums:
+            hash[n] = 1 + hash.get(n, 0)
+            if hash[n] > majority:
+                res = n
+                majority = hash[n]
+        
+        return res
+
+
+def romantic_setup_probability(p_mb, p_ab, p_rain):
+    # Probability that Mike and Alice do NOT meet during travel
+    # They meet on the bus if both take bus: p_mb * p_ab
+    # They meet on the train if both take train: (1 - p_mb) * (1 - p_ab)
+    meet_on_travel = (p_mb * p_ab) + ((1 - p_mb) * (1 - p_ab))
+    
+    # Probability they do NOT meet during travel
+    not_meet_travel = 1 - meet_on_travel
+    
+    # Probability of romantic setup = rain AND not meeting during travel
+    p_rs = p_rain * not_meet_travel
+    
+    return round(p_rs, 6)
+
+
+if __name__ == "__main__":
+    # Read inputs
+    p_mb = float(input().strip())  # Mike bus probability
+    p_ab = float(input().strip())  # Alice bus probability
+    p_rain = float(input().strip())  # Rain probability
+    
+    # Compute and print result
+    print(f"{romantic_setup_probability(p_mb, p_ab, p_rain):.6f}")
