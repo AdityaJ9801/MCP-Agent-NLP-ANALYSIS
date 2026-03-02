@@ -45,8 +45,8 @@ The system follows a directed cyclic graph (DCG) workflow:
 ### Setup Steps
 1. **Clone the repository**:
    ```bash
-   git clone <your-repo-url>
-   cd NLP_PROJECT
+   git clone https://github.com/AdityaJ9801/MCP-Agent-NLP-ANALYSIS.git
+   cd MCP-Agent-NLP-ANALYSIS
    ```
 
 2. **Create and activate a virtual environment**:
