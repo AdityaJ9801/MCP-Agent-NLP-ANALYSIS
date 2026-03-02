@@ -1,4 +1,4 @@
-# Advanced AI Research Agent (V4)
+# Advanced AI Research Agent
 
 An autonomous agentic system built with **LangGraph**, **Ollama**, and **Model Context Protocol (MCP)** servers. This agent can plan its actions, retrieve local context, use specialized tools for NLP and Web research, and reflect on its own answers for maximum accuracy.
 
