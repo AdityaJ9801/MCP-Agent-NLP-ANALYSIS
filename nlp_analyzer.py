@@ -30,6 +30,9 @@ mcp = FastMCP("NLPAnalyzer")
 # --- Dependency Management ---
 import nltk
 from textblob import TextBlob
+from nltk.corpus import stopwords
+from nltk.util import ngrams
+import math
 
 # Ensure basic NLTK resources
 def setup_nltk():
@@ -80,7 +83,50 @@ class NLPProcessor:
         except Exception as e:
             logger.error(f"Stats calculation error: {e}")
             return {"error": str(e)}
+        
+    def advanced_metrics(self, text: str) -> Dict[str, Any]:
+        try:
+            tokens = [w.lower() for w in nltk.word_tokenize(text) if w.isalpha()]
+            stop_words = set(stopwords.words("english"))
 
+            total_words = len(tokens)
+            unique_words = len(set(tokens))
+
+            # Bag of Words
+            bow = Counter(tokens).most_common(20)
+
+            # Stopword statistics
+            stopword_count = sum(1 for w in tokens if w in stop_words)
+
+            # N-grams
+            bigrams = Counter(ngrams(tokens, 2)).most_common(10)
+
+            # Average word length
+            avg_word_len = sum(len(w) for w in tokens) / total_words if total_words else 0
+
+            # POS distribution
+            pos_tags = nltk.pos_tag(tokens)
+            pos_distribution = Counter(tag for _, tag in pos_tags)
+
+            # Vocabulary richness
+            ttr = unique_words / total_words if total_words else 0
+
+            # Shannon entropy (text complexity)
+            freq = Counter(tokens)
+            entropy = -sum((count/total_words) * math.log2(count/total_words) for count in freq.values())
+
+            return {
+                "bag_of_words_top20": bow,
+                "bigrams_top10": [" ".join(bg) for bg, _ in bigrams],
+                "stopword_ratio": round(stopword_count / total_words, 3) if total_words else 0,
+                "avg_word_length": round(avg_word_len, 2),
+                "type_token_ratio": round(ttr, 3),
+                "pos_distribution": dict(pos_distribution),
+                "text_entropy": round(entropy, 3)
+            }
+
+        except Exception as e:
+            return {"error": str(e)}
     def process(self, text: str) -> Dict[str, Any]:
         try:
             clean = self.clean_text(text)
@@ -88,6 +134,7 @@ class NLPProcessor:
             
             return {
                 "statistics": self.get_stats(clean),
+                "advanced_metrics": self.advanced_metrics(clean),
                 "sentiment": {
                     "polarity": round(blob.sentiment.polarity, 2),
                     "subjectivity": round(blob.sentiment.subjectivity, 2),
