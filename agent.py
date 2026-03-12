@@ -29,7 +29,7 @@ logging.basicConfig(
 logger = logging.getLogger("ResearchAgent")
 
 MODEL_NAME = os.getenv("OLLAMA_MODEL", "qwen3:1.7b") 
-
+#MODEL_NAME = os.getenv("OLLAMA_MODEL", "qwen3.5:2b")
 # --- 1. State Definition ---
 class State(TypedDict):
     messages: Annotated[list[BaseMessage], add_messages]
@@ -42,7 +42,8 @@ MCP_CONFIG = {
     "nlp": {"command": "python", "args": [os.path.abspath("nlp_analyzer.py")], "transport": "stdio"},
     "web": {"command": "python", "args": [os.path.abspath("web_extractor.py")], "transport": "stdio"},
     "files": {"command": "python", "args": [os.path.abspath("file_loader.py")], "transport": "stdio"},
-    "rag": {"command": "python", "args": [os.path.abspath("rag_engine.py")], "transport": "stdio"}
+    "rag": {"command": "python", "args": [os.path.abspath("rag_engine.py")], "transport": "stdio"},
+    "report": {"command": "python", "args": [os.path.abspath("report_generator.py")], "transport": "stdio"}
 }
 
 def clear_rag_storage():
@@ -65,19 +66,22 @@ async def planner(state: State, llm):
 LATEST USER QUERY: "{user_query}"
 
 AVAILABLE TOOLS:
-1. nlp_analyzer: Deep text analysis (sentiment, metrics, summarization).
-2. web_extractor: Google search and web scraping.
-3. file_loader: Read PDF, DOCX, CSV, TXT.
-4. rag_engine: Search or inject into long-term knowledge base.
+1. nlp_analyzer: Provides tools: analyze_file, analyze_text, summarize_text, get_readability_metrics.
+2. web_extractor: Provides tools: search_and_scrape, scrape_url.
+3. file_loader: Provides tools: load_local_file (PDF, DOCX, CSV, TXT).
+4. rag_engine: Provides tools: search_knowledge_base, add_to_knowledge_base.
+5. report_generator: Provides tools: create_analysis_report (structured), save_markdown_report (Saves raw markdown content directly to a file).
 
 TASK:
 1. If the query is a simple greeting or common knowledge you can answer directly, start with "DECISION: DIRECT_ANSWER" followed by the answer.
-2. If the query requires research, web access, or file reading, start with "DECISION: TOOL_PLAN" and list the steps.
-3. If it's something you cannot do, start with "DECISION: UNSUPPORTED" and explain why.
+2. If the query requires research, web access, or file reading, start with "DECISION: TOOL_PLAN" and list the specific tool names from the available list.
+3. If the user asks for a report, you MUST include a step to use 'save_markdown_report'. It is simpler and more reliable. Only use 'create_analysis_report' if you have structured data in the exact expected dictionary format.
+4. If it's something you cannot do, start with "DECISION: UNSUPPORTED" and explain why.
 
 Be decisive. Do not use tools for simple conversation.
 """
     response = await llm.ainvoke([HumanMessage(content=planner_prompt)])
+    logger.info(f"Planner Decision: {response.content}")
     console.print(Panel(response.content, title="[bold cyan]PLANNER DECISION[/bold cyan]"))
     return {"plan": response.content}
 
@@ -95,7 +99,9 @@ async def chatbot(state: State, llm_with_tools):
 STRICT PLAN TO FOLLOW:
 {plan}
 
-Use your tools to fulfill this plan. Once tools provide data, synthesize a final answer.
+Use your tools to fulfill this plan. 
+IMPORTANT: If the plan specifies creating a report, you MUST call the 'create_analysis_report' tool. Do not just output the report text.
+Once tools provide data, synthesize a final answer informing the user about the results and any files created.
 """
     messages = [SystemMessage(content=system_prompt)] + state["messages"]
     response = await llm_with_tools.ainvoke(messages)
@@ -109,11 +115,19 @@ async def reflector(state: State, llm):
     user_query = [m for m in state["messages"] if isinstance(m, HumanMessage)][-1].content
     last_ai_msg = state["messages"][-1].content
     
+    # Check if a report was requested but no file was created
+    if "report" in user_query.lower() and "created successfully" not in last_ai_msg.lower():
+        critique = "The user requested a report, but the 'create_analysis_report' tool was not called or its success was not reported. Please use the tool to save the report to a file."
+        logger.info(f"Refinement requested: {critique}")
+        return {"messages": [HumanMessage(content=f"REFINE: {critique}")], "iterations": state.get("iterations", 0) + 1}
+
     critique_prompt = f"Does this answer '{user_query}'? Answer: '{last_ai_msg}'. Reply 'CORRECT' or 'REFINE: [reason]'."
     eval_res = await llm.ainvoke([HumanMessage(content=critique_prompt)])
     
     if "CORRECT" in eval_res.content.upper():
         return {"iterations": 4}
+    
+    logger.info(f"Refinement requested: {eval_res.content}")
     return {"messages": [HumanMessage(content=f"REFINE: {eval_res.content}")], "iterations": state.get("iterations", 0) + 1}
 
 def should_continue(state: State) -> Literal["tools", "reflector", "__end__"]:

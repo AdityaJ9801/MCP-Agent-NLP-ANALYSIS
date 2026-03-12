@@ -400,3 +400,340 @@ ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
 2026-03-10 22:54:54,457 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
 2026-03-10 22:56:06,422 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
 2026-03-10 22:57:44,359 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-10 23:12:07,170 - ResearchAgent - INFO - Cleared RAG storage.
+2026-03-10 23:12:54,007 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-10 23:13:24,895 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-10 23:13:28,464 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-10 23:13:34,764 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-10 23:13:41,408 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-10 23:14:14,879 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-10 23:14:23,009 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-10 23:16:55,669 - ResearchAgent - INFO - Cleared RAG storage.
+2026-03-10 23:17:07,224 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-10 23:17:10,278 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-10 23:17:16,504 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-10 23:17:26,418 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-10 23:17:57,103 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-10 23:19:14,585 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-10 23:19:23,868 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-10 23:20:00,486 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-10 23:21:37,346 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-10 23:21:45,664 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-10 23:23:20,968 - ResearchAgent - INFO - Cleared RAG storage.
+2026-03-10 23:23:46,512 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-10 23:23:53,542 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-10 23:24:39,794 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-10 23:25:27,125 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-10 23:31:21,980 - ResearchAgent - INFO - Cleared RAG storage.
+2026-03-10 23:37:10,507 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-10 23:37:19,237 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-10 23:37:29,055 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-10 23:37:42,055 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-10 23:37:46,253 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-10 23:38:38,617 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-10 23:39:32,504 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-10 23:44:42,881 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-10 23:44:50,258 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-10 23:44:53,701 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-10 23:44:57,339 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-10 23:45:01,489 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-10 23:46:02,063 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-10 23:46:07,931 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-10 23:46:11,619 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-10 23:46:15,386 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-10 23:46:28,118 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-10 23:47:18,845 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-10 23:47:32,051 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-10 23:47:56,613 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-10 23:48:20,024 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-10 23:48:58,613 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-10 23:49:28,210 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-10 23:49:55,664 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-10 23:50:17,084 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-10 23:55:09,912 - ResearchAgent - INFO - Cleared RAG storage.
+2026-03-10 23:55:36,889 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-10 23:55:44,145 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-10 23:55:50,512 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-10 23:56:51,424 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-10 23:57:32,134 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-10 23:58:01,474 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-10 23:59:21,562 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 01:09:07,482 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 01:09:15,569 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 01:09:33,736 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 06:53:40,864 - ResearchAgent - INFO - Cleared RAG storage.
+2026-03-11 06:54:23,679 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 06:54:26,122 - ResearchAgent - INFO - Planner Decision: DECISION: TOOL_PLAN
+1. Use file_loader to load the local file "temp.txt" from the specified path.
+2. Apply nlp_analyzer to perform text analysis (e.g., summarize_text, readability_metrics, or content extraction).
+3. Generate a structured analysis report using create_analysis_report.
+4. Save the report via save_markdown_report if required.
+2026-03-11 06:54:26,523 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 06:54:36,916 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 06:55:57,489 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 06:56:33,732 - ResearchAgent - INFO - Refinement requested: The user requested a report, but the 'create_analysis_report' tool was not called or its success was not reported. Please use the tool to save the report to a file.
+2026-03-11 06:56:39,186 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 06:57:39,688 - ResearchAgent - INFO - Refinement requested: The user requested a report, but the 'create_analysis_report' tool was not called or its success was not reported. Please use the tool to save the report to a file.
+2026-03-11 06:57:44,712 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 06:58:33,977 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 06:59:01,912 - ResearchAgent - INFO - Planner Decision: DECISION: TOOL_PLAN  
+Required tools:  
+1. `load_local_file` to load the file at "D:\PROJECT\NLP_PROJECT\temp.txt" (TXT format)  
+2. `nlp_analyzer.analyze_file` to perform NLP analysis on the loaded file  
+3. `report_generator.create_analysis_report` to generate a structured report  
+
+Steps:  
+1. Use `load_local_file` to load the text file.  
+2. Apply `nlp_analyzer.analyze_file` to extract NLP metrics (e.g., sentiment, topic modeling, readability).  
+3. Use `report_generator.create_analysis_report` to generate a markdown report with findings.  
+4. Save the report using `save_markdown_report` if required.  
+
+Note: Ensure the file is accessible and the path is correct before proceeding.
+2026-03-11 06:59:07,173 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 07:00:11,004 - ResearchAgent - INFO - Refinement requested: The user requested a report, but the 'create_analysis_report' tool was not called or its success was not reported. Please use the tool to save the report to a file.
+2026-03-11 07:00:14,825 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 07:00:53,180 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 07:01:45,248 - ResearchAgent - INFO - Refinement requested: The user requested a report, but the 'create_analysis_report' tool was not called or its success was not reported. Please use the tool to save the report to a file.
+2026-03-11 07:01:46,765 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 07:02:24,607 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 07:03:05,674 - ResearchAgent - INFO - Refinement requested: The user requested a report, but the 'create_analysis_report' tool was not called or its success was not reported. Please use the tool to save the report to a file.
+2026-03-11 07:03:06,560 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 07:18:52,442 - ResearchAgent - INFO - Cleared RAG storage.
+2026-03-11 07:19:11,688 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 07:19:15,197 - ResearchAgent - INFO - Planner Decision: DECISION: TOOL_PLAN
+1. Use file_loader to load the local file "temp.txt" from the specified path.
+2. Apply nlp_analyzer's analyze_file tool to process the file and generate an NLP analysis report.
+3. Use report_generator to create a structured markdown report from the analysis results.
+2026-03-11 07:19:15,597 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 07:19:18,959 - ResearchAgent - INFO - Refinement requested: The user requested a report, but the 'create_analysis_report' tool was not called or its success was not reported. Please use the tool to save the report to a file.
+2026-03-11 07:19:19,095 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 07:19:24,841 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 07:19:44,790 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 07:20:22,218 - ResearchAgent - INFO - Refinement requested: The user requested a report, but the 'create_analysis_report' tool was not called or its success was not reported. Please use the tool to save the report to a file.
+2026-03-11 07:20:26,053 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 07:21:12,649 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 08:03:04,283 - ResearchAgent - INFO - Cleared RAG storage.
+2026-03-11 08:04:17,195 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 08:04:21,244 - ResearchAgent - INFO - Planner Decision: DECISION: DIRECT_ANSWER  
+The tools available are:  
+1. **nlp_analyzer**: Provides text analysis (summarize_text, get_readability_metrics, analyze_file, analyze_text).  
+2. **web_extractor**: Enables web searching (search_and_scrape, scrape_url).  
+3. **file_loader**: Loads local files (PDF, DOCX, CSV, TXT).  
+4. **rag_engine**: Integrates with knowledge base (search_knowledge_base, add_to_knowledge_base).  
+5. **report_generator**: Creates structured reports (create_analysis_report) or saves markdown reports (save_markdown_report).
+2026-03-11 08:06:03,901 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 08:06:10,878 - ResearchAgent - INFO - Planner Decision: DECISION: TOOL_PLAN  
+1. Use `web_extractor` to scrape the URL `https://labelstud.io/guide/glossary` to fetch the content.  
+2. Use `nlp_analyzer.analyze_text` to extract key terms, definitions, and structure from the scraped text.  
+3. Use `nlp_analyzer.summarize_text` to generate a concise summary of the glossary's structure and key concepts.  
+4. Use `report_generator.create_analysis_report` to compile a structured report with the analysis and summary.  
+5. Save the report using `report_generator.save_markdown_report` for a direct markdown file.  
+
+**Note:** The report will include the analysis of the glossary's terminology, its purpose, and its role in Label Studio's documentation.
+2026-03-11 08:06:11,665 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 08:06:24,158 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 08:06:27,422 - ResearchAgent - INFO - Refinement requested: The user requested a report, but the 'create_analysis_report' tool was not called or its success was not reported. Please use the tool to save the report to a file.
+2026-03-11 08:06:28,237 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 08:06:36,981 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 08:06:41,583 - ResearchAgent - INFO - Refinement requested: The user requested a report, but the 'create_analysis_report' tool was not called or its success was not reported. Please use the tool to save the report to a file.
+2026-03-11 08:06:42,075 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 08:06:51,595 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 08:06:58,032 - ResearchAgent - INFO - Refinement requested: The user requested a report, but the 'create_analysis_report' tool was not called or its success was not reported. Please use the tool to save the report to a file.
+2026-03-11 08:06:58,613 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 08:07:09,157 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 08:08:54,383 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 08:08:57,690 - ResearchAgent - INFO - Planner Decision: DECISION: TOOL_PLAN
+1. Use web_extractor to scrape the URL https://labelstud.io/guide/glossary
+2. Use nlp_analyzer to analyze the scraped text with analyze_text
+3. Use nlp_analyzer to generate a summary of the text with summarize_text
+4. Use report_generator to create a structured analysis report from the summary
+2026-03-11 08:08:59,216 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 08:09:15,384 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 08:09:22,369 - ResearchAgent - INFO - Refinement requested: The user requested a report, but the 'create_analysis_report' tool was not called or its success was not reported. Please use the tool to save the report to a file.
+2026-03-11 08:09:23,448 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 08:09:36,997 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 08:10:18,505 - ResearchAgent - INFO - Refinement requested: The user requested a report, but the 'create_analysis_report' tool was not called or its success was not reported. Please use the tool to save the report to a file.
+2026-03-11 08:10:24,614 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 08:11:23,414 - ResearchAgent - INFO - Refinement requested: The user requested a report, but the 'create_analysis_report' tool was not called or its success was not reported. Please use the tool to save the report to a file.
+2026-03-11 08:11:29,738 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 10:29:31,437 - ResearchAgent - INFO - Cleared RAG storage.
+2026-03-11 10:31:33,532 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 10:31:35,604 - ResearchAgent - INFO - Planner Decision: DECISION: TOOL_PLAN
+1. load_local_file (PDF, DOCX, CSV, TXT) - Load the file to access its contents
+2. analyze_text - Perform NLP analysis on the loaded file content
+2026-03-11 10:31:36,347 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 10:31:45,935 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 10:32:00,642 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 10:34:33,066 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 10:34:44,192 - ResearchAgent - INFO - Planner Decision: DECISION: TOOL_PLAN
+The available tools are:
+1. nlp_analyzer: analyze_file, analyze_text, summarize_text, get_readability_metrics.
+2. web_extractor: search_and_scrape, scrape_url.
+3. file_loader: load_local_file (PDF, DOCX, CSV, TXT).
+4. rag_engine: search_knowledge_base, add_to_knowledge_base.
+5. report_generator: create_analysis_report, save_markdown_report.
+2026-03-11 10:34:45,392 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 10:34:55,849 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 10:38:12,597 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 10:38:17,038 - ResearchAgent - INFO - Planner Decision: DECISION: TOOL_PLAN
+The file "temp.txt" needs to be loaded and analyzed. Use the `load_local_file` tool to load the file and then apply `analyze_text` to process its contents.
+2026-03-11 10:38:20,951 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 10:38:29,613 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 10:38:40,004 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 10:39:16,219 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 10:39:21,803 - ResearchAgent - INFO - Planner Decision: DECISION: UNSUPPORTED  
+The query requires analyzing "requirements.txt", but the necessary file is not provided. The available tools cannot access or load the file, and the user has not shared it. Analysis cannot proceed without the file.
+2026-03-11 10:42:41,822 - ResearchAgent - INFO - Cleared RAG storage.
+2026-03-11 10:44:55,151 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 10:45:18,607 - ResearchAgent - INFO - Planner Decision: DECISION: DIRECT_ANSWER
+Hello! It's great to meet you. How can I assist you today?
+2026-03-11 10:46:31,787 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 10:48:07,037 - ResearchAgent - INFO - Planner Decision: DECISION: TOOL_PLAN
+Tools: file_loader, nlp_analyzer
+2026-03-11 10:48:11,444 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 10:48:52,474 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 10:52:31,231 - ResearchAgent - INFO - Cleared RAG storage.
+2026-03-11 11:01:05,235 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 11:01:27,876 - ResearchAgent - INFO - Planner Decision: DECISION: DIRECT_ANSWER
+Hello! It's great to meet you. How can I assist you today?
+2026-03-11 11:02:15,081 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 15:53:59,572 - ResearchAgent - INFO - Cleared RAG storage.
+2026-03-11 15:54:52,004 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 15:54:56,789 - ResearchAgent - INFO - Planner Decision: DECISION: DIRECT_ANSWER  
+Here is a list of tools available to me:  
+1. **nlp_analyzer**: Tools include analyzing files, texts, summarizing content, and calculating readability metrics.  
+2. **web_extractor**: Tools allow searching and scraping web content, as well as scraping specific URLs.  
+3. **file_loader**: Enables loading local files (PDF, DOCX, CSV, TXT) for analysis.  
+4. **rag_engine**: Supports searching within a knowledge base and adding new information to it.  
+5. **report_generator**: Provides tools to create structured analysis reports or save markdown reports.  
+
+Let me know if you need assistance using any of these tools!
+2026-03-11 15:55:23,213 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 15:55:28,690 - ResearchAgent - INFO - Planner Decision: DECISION: TOOL_PLAN
+1. Use web_extractor to scrape the URL https://labelstud.io/guide/glossary
+2. Analyze the scraped text using analyze_text to extract key information about Label Studio's glossary features
+3. Generate a structured analysis report using create_analysis_report with the extracted content
+
+The report will include:
+- Overview of the glossary system
+- Key features and functionalities
+- Technical specifications
+- Use cases and examples
+- Comparative analysis with other documentation formats
+
+The analysis will be conducted using NLP techniques to extract structured information from the web content.
+2026-03-11 15:55:29,509 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 15:55:42,955 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 15:56:00,027 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 15:56:10,915 - ResearchAgent - INFO - Refinement requested: REFINE: The answer provides a comprehensive NLP analysis but lacks specific frequency data for bigrams (e.g., how often "Label Studio" or "Text label" appear). It also does not explicitly state the actual bigram frequencies, which would enhance the analysis's depth.
+2026-03-11 15:56:15,149 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 15:56:59,211 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 15:57:46,786 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 15:59:18,315 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 15:59:28,840 - ResearchAgent - INFO - Planner Decision: DECISION: TOOL_PLAN  
+1. Use `web_extractor` to scrape the URL `https://internshala.com/internships/` to retrieve the content.  
+2. Use `nlp_analyzer.summarize_text` to generate a summary of the scraped text.  
+3. Use `report_generator.create_analysis_report` to compile a structured report with the summary.  
+4. Save the report using `report_generator.save_markdown_report` for final output.  
+
+**Note:** The process requires the web_extractor tool to retrieve the content first, followed by NLP analysis and report generation. The tools are applied in sequence to fulfill the request.
+2026-03-11 15:59:30,389 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 15:59:43,270 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 16:00:26,308 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 16:00:56,138 - ResearchAgent - INFO - Refinement requested: REFINE: The answer provides a structured summary of the Internshala internships page, including key metrics like total listings, popular sectors, and salary ranges. However, it lacks detailed NLP analysis components such as topic modeling, sentiment classification, or text segmentation. The bigram frequency highlights are present but not interpreted in the context of NLP techniques. A full NLP analysis would require additional steps like text classification, sentiment analysis, and structural modeling.
+2026-03-11 16:01:01,534 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 16:03:09,403 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 16:03:22,655 - ResearchAgent - INFO - Planner Decision: DECISION: TOOL_PLAN
+1. Use web_extractor to scrape the URL https://internshala.com/internships/ to obtain the website's content.
+2. Apply nlp_analyzer's analyze_text tool on the scraped text to extract NLP insights (e.g., key themes, sentiment, entity recognition).
+3. Use nlp_analyzer's summarize_text tool to generate a concise summary of the extracted content.
+4. Compile the analysis and summary into a structured report using report_generator (if required).
+2026-03-11 16:03:26,658 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 16:05:13,379 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 16:05:40,330 - ResearchAgent - INFO - Cleared RAG storage.
+2026-03-11 16:06:30,918 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 16:06:32,109 - ResearchAgent - INFO - Planner Decision: DECISION: DIRECT_ANSWER
+Hello! How can I assist you today?
+2026-03-11 16:07:09,813 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 16:07:14,819 - ResearchAgent - INFO - Planner Decision: DECISION: TOOL_PLAN
+1. Use file_loader to load the local file "temp.txt" from the specified path.
+2. Apply nlp_analyzer with analyze_text to extract NLP-related insights from the text content.
+2026-03-11 16:07:15,519 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 16:07:24,714 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 16:07:29,540 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 16:07:34,807 - ResearchAgent - INFO - Refinement requested: REFINE: The answer confirms the completion of the NLP analysis but does not provide the specific details (e.g., word frequency, sentiment analysis, or key insights) of the report. It only states that the analysis was saved, which does not fulfill the requirement to "provide nlp analysis" as requested.
+2026-03-11 16:07:35,876 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 16:07:44,538 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 16:07:51,253 - ResearchAgent - INFO - Refinement requested: The user requested a report, but the 'create_analysis_report' tool was not called or its success was not reported. Please use the tool to save the report to a file.
+2026-03-11 16:07:51,815 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 16:08:13,616 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 16:08:43,814 - ResearchAgent - INFO - Refinement requested: The user requested a report, but the 'create_analysis_report' tool was not called or its success was not reported. Please use the tool to save the report to a file.
+2026-03-11 16:08:44,923 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 16:09:25,083 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 16:10:42,718 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 16:10:46,973 - ResearchAgent - INFO - Planner Decision: DECISION: TOOL_PLAN
+The user requested an NLP analysis of a local file. The file path is provided, so the first step is to load the file using `load_local_file` with the TXT extension. Once loaded, use `analyze_text` from the `nlp_analyzer` tool to perform the NLP analysis. No additional tools are needed for this request.
+2026-03-11 16:10:48,462 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 16:10:56,582 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 16:12:21,024 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 16:12:37,397 - ResearchAgent - INFO - Planner Decision: DECISION: TOOL_PLAN
+1. Use file_loader to load the Excel file: load_local_file with path "D:\KNIME\knime-workspace\What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec.xlsx"
+2. Use nlp_analyzer's analyze_file tool to process the loaded file, extracting text content for NLP analysis
+3. Summarize the extracted text using summarize_text to generate an NLP analysis report
+2026-03-11 16:12:38,966 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 16:12:51,973 - ResearchAgent - INFO - Refinement requested: The user requested a report, but the 'create_analysis_report' tool was not called or its success was not reported. Please use the tool to save the report to a file.
+2026-03-11 16:12:53,858 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 16:13:25,177 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 16:14:22,497 - ResearchAgent - INFO - Refinement requested: The user requested a report, but the 'create_analysis_report' tool was not called or its success was not reported. Please use the tool to save the report to a file.
+2026-03-11 16:14:27,736 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 16:15:24,038 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 16:20:28,514 - ResearchAgent - INFO - Cleared RAG storage.
+2026-03-11 16:20:59,662 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 16:21:01,590 - ResearchAgent - INFO - Planner Decision: DECISION: DIRECT_ANSWER
+Hello! How can I assist you today?
+2026-03-11 16:21:13,467 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 16:21:19,612 - ResearchAgent - INFO - Planner Decision: DECISION: DIRECT_ANSWER  
+The tools available are:  
+1. **nlp_analyzer**: analyze_file, analyze_text, summarize_text, get_readability_metrics  
+2. **web_extractor**: search_and_scrape, scrape_url  
+3. **file_loader**: load_local_file (PDF, DOCX, CSV, TXT)  
+4. **rag_engine**: search_knowledge_base, add_to_knowledge_base  
+5. **report_generator**: create_analysis_report, save_markdown_report
+2026-03-11 16:22:47,220 - ResearchAgent - INFO - Cleared RAG storage.
+2026-03-11 16:23:23,437 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 16:23:24,833 - ResearchAgent - INFO - Planner Decision: DECISION: DIRECT_ANSWER
+Hello! How can I assist you today?
+2026-03-11 16:23:49,749 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 16:23:56,074 - ResearchAgent - INFO - Planner Decision: DECISION: TOOL_PLAN  
+1. Use `web_extractor` to scrape the content of https://mlflow.org/docs/latest/ml.  
+2. Use `nlp_analyzer.analyze_text` on the scraped text to extract key themes, entities, and insights related to MLflow's documentation.  
+3. Generate a structured summary using `nlp_analyzer.summarize_text` for final output.  
+
+**Note:** The analysis will focus on identifying MLflow's features, documentation structure, and technical details from the website.
+2026-03-11 16:23:56,848 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 16:24:10,842 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 16:25:19,081 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 16:25:45,966 - ResearchAgent - INFO - Planner Decision: DECISION: TOOL_PLAN
+I will use web_extractor to scrape the MLflow website and then use nlp_analyzer to perform the NLP analysis on the extracted text. The steps are:
+1. Use scrape_url to extract the content of https://mlflow.org/docs/latest/ml
+2. Use analyze_text on the extracted text to perform NLP analysis (e.g., keyword extraction, sentiment analysis, entity recognition)
+3. Generate a structured analysis report using create_analysis_report
+
+The report will include:
+- Key concepts from the MLflow documentation
+- Technical details about MLflow's features and architecture
+- Summary of the website's content and structure
+
+I will save the analysis report using save_markdown_report as requested.
+2026-03-11 16:25:50,412 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 16:26:38,613 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 16:29:08,635 - ResearchAgent - INFO - Cleared RAG storage.
+2026-03-11 16:29:38,297 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 16:29:39,829 - ResearchAgent - INFO - Planner Decision: DECISION: DIRECT_ANSWER
+Hello! How can I assist you today?
+2026-03-11 16:30:12,862 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 16:30:16,067 - ResearchAgent - INFO - Planner Decision: DECISION: TOOL_PLAN
+The file "D:\PROJECT\NLP_PROJECT\temp.txt" needs to be analyzed for summary and insights. Use the `summarize_text` tool from the `nlp_analyzer` to extract key points and generate a structured summary. Ensure the tool is applied to the local file directly.
+2026-03-11 16:30:16,801 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 16:30:27,443 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-11 16:30:41,089 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
